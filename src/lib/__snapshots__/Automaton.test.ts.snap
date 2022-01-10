@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has even a 1`] = `
+Automaton {
+  "accepting_state": Set {
+    "0",
+  },
+  "init_state": "0",
+  "states": Map {
+    "0" => State {
+      "id": "0",
+      "next": Map {
+        "a" => "1",
+        "b" => "0",
+      },
+    },
+    "1" => State {
+      "id": "1",
+      "next": Map {
+        "a" => "0",
+        "b" => "1",
+      },
+    },
+  },
+}
+`;
